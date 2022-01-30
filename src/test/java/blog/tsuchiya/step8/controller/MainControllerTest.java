@@ -16,6 +16,8 @@ import org.springframework.web.context.WebApplicationContext;
 
 import blog.tsuchiya.step8.service.SampleService;
 
+// 最重要。テスト対象のサーバを起動して、Controllerの
+// テストを行えるようにするアノテーション
 @SpringBootTest
 class MainControllerTest {
 	

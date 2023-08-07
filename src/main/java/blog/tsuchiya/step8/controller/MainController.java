@@ -1,7 +1,5 @@
 package blog.tsuchiya.step8.controller;
 
-import javax.validation.Valid;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -10,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import blog.tsuchiya.step8.controller.form.SampleForm;
 import blog.tsuchiya.step8.service.SampleService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @Controller
